@@ -1,0 +1,9 @@
+CHANGES
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+lib/Dist/Zilla/PluginBundle/JAITKEN.pm
+t/001_basics.t
