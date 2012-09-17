@@ -8,22 +8,19 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300018, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Dist::Zilla version 4.300023, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Dist-Zilla-PluginBundle-JAITKEN
 requires:
-  Dist::Zilla::Plugin::AutoPrereqs: 0
-  Dist::Zilla::Plugin::GithubMeta: 0
-  Dist::Zilla::Plugin::MetaJSON: 0
-  Dist::Zilla::Plugin::MinimumPerl: 0
-  Dist::Zilla::Plugin::PruneFiles: 0
-  Dist::Zilla::Plugin::ReadmeAnyFromPod: 0
-  Dist::Zilla::Plugin::VersionFromModule: 0
-  Dist::Zilla::PluginBundle::Basic: 0
-  Dist::Zilla::PluginBundle::Filter: 0
+  Dist::Zilla::Plugin::GithubMeta: 0.28
+  Dist::Zilla::Plugin::MinimumPerl: 1.003
+  Dist::Zilla::Plugin::MinimumPrereqs: 0.91
+  Dist::Zilla::Plugin::PrereqsClean: 0.91
+  Dist::Zilla::Plugin::ReadmeAnyFromPod: 0.120120
+  Dist::Zilla::Plugin::VersionFromModule: 0.08
   Dist::Zilla::Role::PluginBundle::Easy: 0
   Moose: 0
   perl: 5.006
@@ -32,4 +29,4 @@ resources:
   bugtracker: https://github.com/LoonyPandora/Dist-Zilla-PluginBundle-JAITKEN/issues
   homepage: https://github.com/LoonyPandora/Dist-Zilla-PluginBundle-JAITKEN
   repository: https://github.com/LoonyPandora/Dist-Zilla-PluginBundle-JAITKEN.git
-version: 0.1.0
+version: 0.1.1

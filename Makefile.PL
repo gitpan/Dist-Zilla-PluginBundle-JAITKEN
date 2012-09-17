@@ -23,20 +23,17 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Dist::Zilla::PluginBundle::JAITKEN",
   "PREREQ_PM" => {
-    "Dist::Zilla::Plugin::AutoPrereqs" => 0,
-    "Dist::Zilla::Plugin::GithubMeta" => 0,
-    "Dist::Zilla::Plugin::MetaJSON" => 0,
-    "Dist::Zilla::Plugin::MinimumPerl" => 0,
-    "Dist::Zilla::Plugin::PruneFiles" => 0,
-    "Dist::Zilla::Plugin::ReadmeAnyFromPod" => 0,
-    "Dist::Zilla::Plugin::VersionFromModule" => 0,
-    "Dist::Zilla::PluginBundle::Basic" => 0,
-    "Dist::Zilla::PluginBundle::Filter" => 0,
+    "Dist::Zilla::Plugin::GithubMeta" => "0.28",
+    "Dist::Zilla::Plugin::MinimumPerl" => "1.003",
+    "Dist::Zilla::Plugin::MinimumPrereqs" => "0.91",
+    "Dist::Zilla::Plugin::PrereqsClean" => "0.91",
+    "Dist::Zilla::Plugin::ReadmeAnyFromPod" => "0.120120",
+    "Dist::Zilla::Plugin::VersionFromModule" => "0.08",
     "Dist::Zilla::Role::PluginBundle::Easy" => 0,
     "Moose" => 0,
     "strict" => 0
   },
-  "VERSION" => "0.1.0",
+  "VERSION" => "0.1.1",
   "test" => {
     "TESTS" => "t/*.t"
   }
