@@ -27,16 +27,15 @@
             "Dist::Zilla::Plugin::PrereqsClean" : "0.91",
             "Dist::Zilla::Plugin::ReadmeAnyFromPod" : "0.120120",
             "Dist::Zilla::Plugin::VersionFromModule" : "0.08",
-            "Dist::Zilla::Role::PluginBundle::Easy" : "0",
-            "Moose" : "0",
-            "perl" : "5.006",
-            "strict" : "0"
+            "Dist::Zilla::Role::PluginBundle::Easy" : "2.101040",
+            "Moose" : "0.94",
+            "perl" : "v5.10.0"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0",
-            "warnings" : "0"
+            "Test::More" : "0.96",
+            "perl" : "5.011004"
          }
       }
    },
@@ -52,6 +51,6 @@
          "web" : "https://github.com/LoonyPandora/Dist-Zilla-PluginBundle-JAITKEN"
       }
    },
-   "version" : "0.1.1"
+   "version" : "0.1.2"
 }
 

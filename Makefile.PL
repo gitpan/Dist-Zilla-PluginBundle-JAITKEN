@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use 5.006;
+use 5.010000;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -12,8 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Build your distributions like JAITKEN",
   "AUTHOR" => "James Aitken <jaitken\@cpan.org>",
   "BUILD_REQUIRES" => {
-    "Test::More" => 0,
-    "warnings" => 0
+    "Test::More" => "0.96"
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -29,11 +28,10 @@ my %WriteMakefileArgs = (
     "Dist::Zilla::Plugin::PrereqsClean" => "0.91",
     "Dist::Zilla::Plugin::ReadmeAnyFromPod" => "0.120120",
     "Dist::Zilla::Plugin::VersionFromModule" => "0.08",
-    "Dist::Zilla::Role::PluginBundle::Easy" => 0,
-    "Moose" => 0,
-    "strict" => 0
+    "Dist::Zilla::Role::PluginBundle::Easy" => "2.101040",
+    "Moose" => "0.94"
   },
-  "VERSION" => "0.1.1",
+  "VERSION" => "0.1.2",
   "test" => {
     "TESTS" => "t/*.t"
   }
