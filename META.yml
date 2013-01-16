@@ -4,11 +4,11 @@ author:
   - 'James Aitken <jaitken@cpan.org>'
 build_requires:
   Test::More: 0.96
-  perl: 5.011004
+  warnings: 1.09
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300023, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Dist::Zilla version 4.300029, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,4 +28,4 @@ resources:
   bugtracker: https://github.com/LoonyPandora/Dist-Zilla-PluginBundle-JAITKEN/issues
   homepage: https://github.com/LoonyPandora/Dist-Zilla-PluginBundle-JAITKEN
   repository: https://github.com/LoonyPandora/Dist-Zilla-PluginBundle-JAITKEN.git
-version: 0.1.2
+version: 0.1.3
