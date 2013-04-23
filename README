@@ -9,6 +9,7 @@ This is the [Dist::Zilla](http://search.cpan.org/perldoc?Dist::Zilla) configurat
 It is exactly equivalent to
 
     [VersionFromModule]
+    [NameFromDirectory]
 
     [AutoPrereqs]
 
@@ -59,8 +60,8 @@ info from your local git repo.
 [Dist::Zilla::Plugin::MetaJSON](http://search.cpan.org/perldoc?Dist::Zilla::Plugin::MetaJSON), [Dist::Zilla::Plugin::MinimumPerl](http://search.cpan.org/perldoc?Dist::Zilla::Plugin::MinimumPerl),
 [Dist::Zilla::Plugin::MinimumPrereqs](http://search.cpan.org/perldoc?Dist::Zilla::Plugin::MinimumPrereqs), [Dist::Zilla::Plugin::PrereqsClean](http://search.cpan.org/perldoc?Dist::Zilla::Plugin::PrereqsClean),
 [Dist::Zilla::Plugin::PruneFiles](http://search.cpan.org/perldoc?Dist::Zilla::Plugin::PruneFiles), [Dist::Zilla::Plugin::ReadmeAnyFromPod](http://search.cpan.org/perldoc?Dist::Zilla::Plugin::ReadmeAnyFromPod),
-[Dist::Zilla::Plugin::VersionFromModule](http://search.cpan.org/perldoc?Dist::Zilla::Plugin::VersionFromModule), [Dist::Zilla::PluginBundle::Basic](http://search.cpan.org/perldoc?Dist::Zilla::PluginBundle::Basic),
-[Dist::Zilla::PluginBundle::Filter](http://search.cpan.org/perldoc?Dist::Zilla::PluginBundle::Filter)
+[Dist::Zilla::Plugin::VersionFromModule](http://search.cpan.org/perldoc?Dist::Zilla::Plugin::VersionFromModule), [Dist::Zilla::Plugin::NameFromDirectory](http://search.cpan.org/perldoc?Dist::Zilla::Plugin::NameFromDirectory),
+[Dist::Zilla::PluginBundle::Basic](http://search.cpan.org/perldoc?Dist::Zilla::PluginBundle::Basic), [Dist::Zilla::PluginBundle::Filter](http://search.cpan.org/perldoc?Dist::Zilla::PluginBundle::Filter)
 
 
 
