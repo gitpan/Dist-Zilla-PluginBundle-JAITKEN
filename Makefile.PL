@@ -23,6 +23,7 @@ my %WriteMakefileArgs = (
     "Dist::Zilla::Plugin::GithubMeta" => "0.28",
     "Dist::Zilla::Plugin::MinimumPerl" => "1.003",
     "Dist::Zilla::Plugin::MinimumPrereqs" => "0.91",
+    "Dist::Zilla::Plugin::NameFromDirectory" => "0.03",
     "Dist::Zilla::Plugin::PrereqsClean" => "0.91",
     "Dist::Zilla::Plugin::ReadmeAnyFromPod" => "0.120120",
     "Dist::Zilla::Plugin::VersionFromModule" => "0.08",
@@ -32,7 +33,7 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "Test::More" => "0.88"
   },
-  "VERSION" => "0.1.4",
+  "VERSION" => "0.1.5",
   "test" => {
     "TESTS" => "t/*.t"
   }
