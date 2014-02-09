@@ -4,7 +4,7 @@
       "James Aitken <jaitken@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "Dist::Zilla version 5.012, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "perl_5"
    ],
@@ -51,6 +51,6 @@
          "web" : "https://github.com/LoonyPandora/Dist-Zilla-PluginBundle-JAITKEN"
       }
    },
-   "version" : "0.1.5"
+   "version" : "0.1.6"
 }
 
